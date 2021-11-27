@@ -1,0 +1,282 @@
+/* side tab */
+.side-tab {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    
+}
+
+.btn-search {
+    width: 15%;
+    background-color:orangered;
+}
+.btn-search>img {
+    width:40%;
+    height:60%;
+}
+.btn-setting {
+    width: 12%;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 4px;
+}
+.btn-setting>img {
+    height:70%;
+    width: auto;
+}
+.box-search-content {
+    height:36px;
+}
+.box-search-content>input { 
+   border:none;
+   width:73%;
+   padding-left: 8px;
+   outline: none;
+}
+.box-search-content>img {
+    height: 16px;
+    margin:auto 4px;
+}
+.current-place {
+    position: relative;
+}
+.box-search {
+    width: 100%; 
+}
+.condition-img {
+    width: 90%;
+    height:auto;
+}
+.condition-img>img {
+    width: 100%;
+    height: auto;
+}
+.wearther-parameter,.information-wearther{
+    width: 100%;
+    
+}
+.information-wearther-item>img {
+    margin-top: 4px;
+    width: 14%;
+    height:auto; 
+}
+.wearther-parameter>p {
+    line-height:100%;
+    margin:0;
+    padding:10px 0;
+}
+.wearther-parameter {
+    
+}
+.current-place>img {
+    height:auto;
+    width: 100%;
+    border-radius:16px;
+}
+.current-place-text {
+    position: absolute;
+    bottom:10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+}
+.current-place-text>img {
+    height:16px;
+}
+.current-date,.information-wearther-content>span {
+    font-size: 14px;
+}
+.information-wearther {
+    padding-bottom: ;
+}
+/* content */
+.right-side {
+    width:100%;
+    background-color: #f6f6f8;
+}
+.nav-tab-list {
+    list-style: none;
+    display:none;
+}
+.nav-tab {
+    margin: auto 0 auto auto; 
+}
+.nav-tab-list>li {
+    padding:8px;
+    font-size: 16px;
+    font-weight:550;
+    opacity: 0.6;
+}
+
+.header {
+    background-color: #fff;
+}
+.current-time {
+    font-size:24px;
+}
+.current-tem {
+    font-size:56px;
+    font-weight:700;
+}
+.nav-item {
+    padding:8px 4px;
+}
+.nav-link>span {
+    color: rgba(0, 0, 0, 0.5)
+}
+/* tab */
+
+.item-slide-48-content>img {
+    width: 70%;
+    height: auto;
+}
+.item-slide-48-content {
+    background-color: #fff;
+    border-radius:16px;
+}
+.tab-content {
+    width: 100%;
+}
+.btn-tab {
+    font-size: 18px;
+    font-weight:550;
+    opacity: 0.6;
+}
+
+.slick-list {padding: 0 -12px;}
+.slick-slide>div {padding: 0 12px;}
+.moon-current-day, .moon-conditon {
+    border: 1px solid white;
+}
+
+.moon-title-content>img {
+    width:60%;
+    height: auto;
+}
+.moon-conditon>img {
+    width:60%;
+    height: auto;
+}
+#moon {
+    background-color:#9b9b9b;
+    border-radius:20px;
+}
+.description-img>img {
+    height: 60%;
+    width: auto;
+}
+.weather-icon-description-item-tem {
+    font-size:14px;
+    font-weight:550;
+    margin-bottom: 4px;
+}
+.weathe-icon-description-item-text {
+    font-size:14px;
+    margin-bottom: 0;
+}
+.tab-2 {
+    background-color: #fff;
+    border-radius: 20px;
+}
+.title-list {
+    list-style: none;
+    padding:0;
+}
+.title-list>li {
+    font-size: 18px;
+    font-weight:550;
+    opacity: 0.6;
+    
+}
+/* box-3 */
+
+.box-3-header-btn>span {
+    color: #fff;
+}
+.box-3-header-title>img {
+    height:40px;
+    width:auto;
+    margin-right: 8px;
+}
+.box-3-header-title>span {
+    font-size: 22px;
+    font-weight:550;
+    color: orangered;
+}
+.box-3-header-btn {
+    padding: 6px 10px;
+    background-color: orangered;
+    border-radius: 4px;
+}
+.palce-detail {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    color:white;
+}
+.box-icon>img {
+    width: 100%;
+    height:auto;
+}
+.box-icon {
+    width:60%;
+    border-radius: 50%;
+    background-color:
+    #36c1ff;
+}
+.btn-more>a {
+    color: black;
+    text-decoration: none;
+    padding:8px 24px;
+    border-radius: 4px;
+    background-color: white 
+}
+.adress>img {
+    width: 6%;
+}
+.more-place>img {
+    width: 100%;
+    height: auto;
+}
+
+/* box-4 */
+.main-new-img>img {
+    width: 100%;
+    height: auto;
+}
+.side-new>img {
+    width: 40%;
+    height: auto;
+}
+.main-new-content-time, .side-new-content-time {
+    opacity: 0.6;
+    
+}
+.main-new-content-title, .side-new-content-title {
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+
+/* footer */
+
+footer {
+    color: #fff;
+    background-color: 
+    #192438;
+}
+.app-icon>img {
+    width:80%;
+    height:auto;
+    
+}
+.social-icon>img{
+    height:30px;
+    margin-right: 8px;
+}
+
+.header-setting-icon>img {
+    height:32px;
+    width: auto;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-between {
+    display: flex;
+    justify-content:space-between;
+}
+
+.text-white {
+    color:white;
+}
+.mr-auto {
+    margin: auto;
+}
+.col-12-7 {
+    flex: 0 0 auto;
+    width: 14.285%;
+}
+
+.p-60 {
+    padding: 0 60px;
+}
+.width-100 {
+    width: 100%;
+}
