@@ -118,20 +118,20 @@
                     <div class="main-content">
                         <div class="container">
                             <div class="row gx-0">
-                                <div class="col-12 col-sm-10 offset-sm-1">
+                                <div class="col-12 col-md-10 offset-md-1">
                                     <!-- tab-1 -->
                                     <div class="tab-time">
                                         <ul class="nav nav-tabs py-4" id="myTab" role="tablist">
-                                            <li class="nav-item-btn pe-4 " role="presentation">
+                                            <li class="nav-item-btn " role="presentation">
                                               <div class="btn-tab active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">24 giờ tiếp theo</div>
                                             </li>
-                                            <li class="nav-item-btn pe-4 " role="presentation">
+                                            <li class="nav-item-btn  " role="presentation">
                                               <div class="btn-tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">7 ngày</div>
                                             </li>
-                                            <li class="nav-item-btn pe-4 " role="presentation">
+                                            <li class="nav-item-btn  " role="presentation">
                                               <div class="btn-tab" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Biểu đồ</div>
                                             </li>
-                                            <li class="nav-item-btn pe-4 " role="presentation">
+                                            <li class="nav-item-btn " role="presentation">
                                                 <div class="btn-tab" id="contact-tab" data-bs-toggle="tab" data-bs-target="#moon" type="button" role="tab" aria-controls="contact" aria-selected="false">Chu kì trăng</div>
                                             </li>
                                         </ul>
@@ -299,7 +299,21 @@
                                             </div>
                                             <div class="tab-pane fade mt-4" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                                 <div class="chart-slide">
-                                                    
+                                                    <figure class="col-chart">
+                                                        <div class="col-chart-content" id="container-chart1">
+                                                        </div>
+                                                    </figure>
+                                                    <figure class="highcharts-figure ">
+                                                        <div id="container-chart2" class=""></div>
+                                                    </figure>
+                                                    <figure class="highcharts-figure ">
+                                                        <div id="container-chart3" class=""></div>
+                                                    </figure>
+                                                    <figure class="col-chart">
+                                                        <div class="col-chart-content" id="container-chart4">
+                                                        </div>
+                                                    </figure>
+                                                   
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade mt-4 p-4"  id="moon" role="tabpanel" aria-labelledby="contact-tab">
@@ -434,7 +448,7 @@
                                         </ul>
                                     </div>
                                     <div class="tab-2 py-4 mt-4">
-                                        <div class="row ">
+                                        <div class="row gx-0 ">
                                             <div class="col-4 col-sm-4">
                                                 <div class="weather-icon-description-item">
                                                     <div class="row gx-0 flex-nowarap flex-nowrap">
@@ -563,20 +577,20 @@
                                         <div class="box-3-header flex-between pt-4 pb-1">
                                            <div class="box-3-header-title flex">
                                                <img src="./assets/img/ic_other_locations.png" alt="">
-                                               <span class="text-center mr-auto">THỜI TIẾT CÁC ĐỊA ĐIỂM KHÁC</span>
+                                               <span class="text-left mr-auto">THỜI TIẾT CÁC ĐỊA ĐIỂM KHÁC</span>
                                            </div>
                                            <div class="flex">
                                             <div class="box-3-header-btn flex mr-auto">
-                                                <span>Chi tiết</span>
+                                                <span >Chi tiết</span>
                                             </div>
                                            </div> 
                                         </div>
                                         <div class="box-3-content">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-6 mt-3">
+                                            <div class="row gx-0">
+                                                <div class="col-12 col-lg-6 mt-3 px-2">
                                                     <div class="palce-detail" style="background-image: url(assets/img/place/vn_baria_vungtau.png)">
                                                         <div class="place-detail-content " style="background: rgba(0, 0, 0, 0.4); height:100%;">
-                                                            <div class="row">
+                                                            <div class="row gx-0">
                                                                 <div class="col-6 mt-4 ps-4">
                                                                     <div class="place-detail-content-adress">
                                                                         <div class="adress">
@@ -609,10 +623,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-lg-6 mt-3">
+                                                <div class="col-12 col-lg-6 mt-3 px-2">
                                                     <div class="palce-detail" style="background-image: url(assets/img/place/vn_baclieu.png)">
                                                         <div class="place-detail-content " style="background: rgba(0, 0, 0, 0.4); height:100%;">
-                                                            <div class="row">
+                                                            <div class="row gx-0">
                                                                 <div class="col-6 mt-4 ps-4">
                                                                     <div class="place-detail-content-adress">
                                                                         <div class="adress">
@@ -646,25 +660,25 @@
                                                     </div>
                                                 </div>
                                                 
-                                                <div class="col-6 col-md-3 mt-3">
+                                                <div class="col-6 col-md-3 mt-3 px-2">
                                                     <div class="more-place">
                                                         <img src="./assets/img/place/vn_angiang.png" alt="">
                                                         <p class="text-center mt-3">An Giang</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 col-md-3 mt-3">
+                                                <div class="col-6 col-md-3 mt-3 px-2">
                                                     <div class="more-place">
                                                         <img src="./assets/img/place/vn_angiang.png" alt="">
                                                         <p class="text-center mt-3">An Giang</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 col-md-3 mt-3">
+                                                <div class="col-6 col-md-3 mt-3 px-2">
                                                     <div class="more-place">
                                                         <img src="./assets/img/place/vn_angiang.png" alt="">
                                                         <p class="text-center mt-3">An Giang</p>
                                                     </div>
                                                 </div>
-                                                <div class="col-6 col-md-3 mt-3">
+                                                <div class="col-6 col-md-3 mt-3 px-2">
                                                     <div class="more-place">
                                                         <img src="./assets/img/place/vn_angiang.png" alt="">
                                                         <p class="text-center mt-3">An Giang</p>
@@ -687,8 +701,8 @@
                                            </div> 
                                         </div>
                                         <div class="box-4-content">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-7">
+                                            <div class="row gx-0 ">
+                                                <div class="col-12 col-lg-7 px-2">
                                                     <div class="main-new ">
                                                         <div class="main-new-img">
                                                             <img src="./assets/img/place/vn_bacgiang.png" alt="">
@@ -703,9 +717,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-lg-5">
-                                                    <div class="row">
-                                                        <div class="col-12 mb-3">
+                                                <div class="col-12 col-lg-5 px-2">
+                                                    <div class="row gx-0">
+                                                        <div class="col-12 mb-3 ">
                                                             <div class="side-new flex">
                                                                 <img src="./assets/img/place/vn_bacninh.png" alt="">
                                                                 <div class="side-new-content ms-3">
@@ -718,7 +732,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-12 mb-3">
+                                                        <div class="col-12 mb-3 ">
                                                             <div class="side-new flex">
                                                                 <img src="./assets/img/place/vn_bacninh.png" alt="">
                                                                 <div class="side-new-content ms-3">
@@ -774,48 +788,47 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-12 col-md-10 offset-md-1">
-                        <div class="row ">
-                            <div class="col-12 col-md-3">
-                                <div class="footer-dep">
-                                    <img src="./assets/img/img_logo.png" alt="">
-                                    <p>Cung cấp hơn 15 thông số hữu ích, GoWeather là nơi lý tưởng để nhận thông tin dự báo thời tiết chính xác, cập nhật và chi tiết.</p>
-                                </div>
+    </div>
+    <footer>
+        <div class="container py-4">
+            <div class="row ">
+                <div class="col-12 col-md-10 offset-md-1">
+                    <div class="row ">
+                        <div class="col-12 col-md-3">
+                            <div class="footer-dep">
+                                <img src="./assets/img/img_logo.png" alt="">
+                                <p>Cung cấp hơn 15 thông số hữu ích, GoWeather là nơi lý tưởng để nhận thông tin dự báo thời tiết chính xác, cập nhật và chi tiết.</p>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <p>Ứng dụng</p>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="app-icon">
-                                            <img src="./assets/img/btn_appstore.png" alt="">
-                                        </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>Ứng dụng</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="app-icon">
+                                        <img src="./assets/img/btn_appstore.png" alt="">
                                     </div>
-                                    <div class="col-6">
-                                        <div class="app-icon">
-                                            <img src="./assets/img/btn_google.png" alt="">
-                                        </div>
-                                    </div>
-                                    
                                 </div>
+                                <div class="col-6">
+                                    <div class="app-icon">
+                                        <img src="./assets/img/btn_google.png" alt="">
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="col-12 col-md-3">
-                                <p>Xã hội</p>
-                                <div class="social-icon flex">
-                                    <img src="./assets/img/btn_facebook.png" alt="">
-                                    <img src="./assets/img/btn_twitter.png" alt="">
-                                    <img src="./assets/img/btn_pinterest.png" alt="">
-                                </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p>Xã hội</p>
+                            <div class="social-icon flex">
+                                <img src="./assets/img/btn_facebook.png" alt="">
+                                <img src="./assets/img/btn_twitter.png" alt="">
+                                <img src="./assets/img/btn_pinterest.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        
-    </div>
+        </div>
+    </footer>
     
    
 
@@ -824,6 +837,11 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/slick-1.8.1/slick/slick.js"></script>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
     <script src="./assets/java/main.js"></script>
     <script src="./assets/java/slide.js"></script>
     

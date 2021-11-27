@@ -5,6 +5,9 @@
     .header-menu {
         display: none;
     }
+    .logo>img {
+        display: block;
+    }
 }
 @media (max-width:991px) {
     .box-search {
@@ -12,8 +15,81 @@
     }
 }
 
-@media (max-width:991px) and (min-width:768px) {}
+@media (max-width:768px) {
+    .current-place-text>span {
+        font-size:16px;
+    }
+    .current-place-text>img {
+        height:22px;
+        margin-bottom: 4px;
+    }
+    .description-img>img {
+        width:60%;
+        height:60%;
+    }
+    .weather-icon-description-item-tem, .weather-icon-description-item-text {
+        font-size:12px;
+    }
+    .box-3-header-title>span {
+        font-size:18px;
+    }
+    .box-3-header-btn>span {
+        width:60px;
+    }
+    .btn-setting>img {
+        width:auto;
+        height:80%;
+    }
+    .btn-search>img {
+        height:80%;
+        width:auto;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .btn-setting>img {
+        width:80%;
+        height:auto;
+    }
+}
 
 @media (max-width:767px) and (min-width:576px) {}
 
-@media (max-width:575px) {}
+@media (max-width:575px) {
+    .box-3-header-btn>span {
+       width:60px;
+    }
+    .box-3-header-title>span {
+        font-size:16px;
+    }
+    .btn-tab {
+        font-size:16px;
+        
+    }
+    .nav-tabs>li {
+        padding-right: 8px;
+    }
+    .title-list>li {
+        padding-right: 8px;
+        font-size:16px;
+    }
+}
+@media (max-width:356px) {
+    .box-3-header-btn>span {
+        width:70px;
+     }
+    .box-3-header-title>span {
+        font-size:16px;
+    }
+    .btn-tab {
+        font-size:14px;
+        
+    }
+    .nav-tabs>li {
+        padding-right: 4px;
+    }
+    .title-list>li {
+        padding-right: 4px;
+        font-size:14px;
+    }
+}
